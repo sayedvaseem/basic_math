@@ -4,7 +4,7 @@ class ReverseOfArray_Finder{
         int temp = arr[i];
         arr[i] = arr[n-i-1];
         arr[n-i-1] = temp;
-        function(arr, n+1, n);
+        function(arr, i+1, n);
     }
 }
 
